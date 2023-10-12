@@ -54,8 +54,6 @@ class MainActivity : ComponentActivity() {
     }
 
     data class Message(val author: String, val body: String, val isOutgoing: Boolean = false)
-
-
     @Composable
     fun MessageCard(msg: Message) {
         val backgroundColor = if (msg.isOutgoing) Color(0xFF566573) else Color.Blue
