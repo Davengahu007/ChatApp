@@ -1,8 +1,10 @@
-import com.example.composetutorial.Message
-
 /**
+ *
+ *
  * SampleData for Jetpack Compose Tutorial
  */
+import com.example.composetutorial.MainActivity.Message
+
 object SampleData {
     // Sample conversation data
     val conversationSample = listOf(
